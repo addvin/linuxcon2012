@@ -3,13 +3,63 @@ html.intro h2 {
 }
 
 html.middle h3 {
+  color: black;
   margin-top: 25%;
+}
+
+html.large h3 {
+  font-size: 3em;
 }
 
 html.comic h3 {
   font-family: "Bangers";
   font-size: 3em;
   letter-spacing: 0em;
+}
+
+html.shadowman body {
+  background:url("../pics/shadowman.jpg");
+  background-position:center;
+  background-size: 1024px auto;
+  background-repeat: no-repeat;
+}
+
+html.shadowman h3 {
+  font-size:2em;
+  color: white;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+}
+
+html.better body {
+  background:url("../pics/better.png");
+  background-position:center;
+  background-size: 1024px;
+  background-repeat: no-repeat;
+}
+
+html.customer body {
+  background:url("../pics/customer.jpg");
+  background-position:center;
+  background-size: 1024px auto;
+  background-repeat: no-repeat;
+}
+
+html.customer h3 {
+  color: white;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+  margin-top: 45%;
+}
+
+html.flexible body {
+  background:url("../pics/legos.jpg");
+  background-position:center;
+  background-size: 1024px auto;
+  background-repeat: no-repeat;
+}
+
+html.flexible h3 {
+  color: white;
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
 }
 
 html.lifecycle body {
