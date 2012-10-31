@@ -2,6 +2,16 @@ html.intro h2 {
   margin: 0 0 40px 0;
 }
 
+html.middle h3 {
+  margin-top: 25%;
+}
+
+html.middle h3 {
+  font-family: "Bangers";
+  font-size: 3em;
+  letter-spacing: 0em;
+}
+
 html.lifecycle body {
   background:url("../pics/rht-lifecycle-cropped.png");
   background-position:center;
@@ -11,4 +21,55 @@ html.lifecycle body {
 
 html.lifecycle h3 {
   color: black;
+}
+
+html.introducing body {
+  background:url("../pics/introducing.jpg");
+  background-position:center;
+  background-size: 1024px auto;
+  background-repeat: no-repeat;
+}
+
+html.introducing h3 {
+  font-family: 'Oswald';
+  color: white;
+}
+
+html.twitter body {
+  background:url("../pics/twitter.jpg");
+  background-position:center;
+  background-size: 1024px auto;
+  background-repeat: no-repeat;
+}
+
+html.twitter h3 {
+  display: none;
+}
+
+html.performance body {
+  background:url("../pics/performance.jpg");
+  background-position:center;
+  background-size: 1024px auto;
+  background-repeat: no-repeat;
+}
+
+html.performance h3 {
+  font-family: 'Bangers';
+  font-size: 2em;
+  letter-spacing: 0em;
+  color: black;
+}
+
+html.solaris body {
+  background:url("../pics/rowboat.jpg");
+  background-position:center;
+  background-size: 1024px auto;
+  background-repeat: no-repeat;
+}
+
+html.solaris h3 {
+  font-family: 'Bangers';
+  font-size: 2em;
+  letter-spacing: 0em;
+  color: white;
 }

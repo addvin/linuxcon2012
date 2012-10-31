@@ -13,7 +13,7 @@
 
 
 // Include theme-specific fonts
-@import url(http://fonts.googleapis.com/css?family=IM+Fell+English+SC|Michroma|Cabin+Sketch|Rock+Salt|Oswald|Bangers|Press+Start+2P|Holtwood+One+SC);
+@import url(http://fonts.googleapis.com/css?family=Oswald|Bangers);
 
 @font-face {
   font-family: 'OverpassBold';
@@ -38,6 +38,7 @@ $headingFont: 'Overpass', sans-serif;
 $headingColor: #333;
 $headingLetterSpacing: -0.05em;
 $headingTextShadow: none;
+$headingTextTransform: none;
 $backgroundColor: #f7fbfc;
 $linkColor: #3b759e;
 $linkColorHover: lighten( $linkColor, 20% );
@@ -53,3 +54,8 @@ $selectionBackgroundColor: #134674;
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+.reveal {
+	letter-spacing: -0.05em;
+}
+
