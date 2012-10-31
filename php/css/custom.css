@@ -73,3 +73,10 @@ html.solaris h3 {
   letter-spacing: 0em;
   color: white;
 }
+
+html.open-it h3 {
+  font-family: 'Raleway Dots';
+  letter-spacing: 0.1em;
+  word-spacing: 0.3em;
+  font-size: 5em;
+}
