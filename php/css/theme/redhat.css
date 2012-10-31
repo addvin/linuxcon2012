@@ -146,3 +146,8 @@ body {
 .reveal {
   letter-spacing: -0.05em;
 }
+
+.footer {
+  color: black;
+  font-family: 'Overpass';
+}
