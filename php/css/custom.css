@@ -9,10 +9,10 @@ html.intro h2 {
 }
 
 /* Defaults img followed by h3 to overlay the h3 */
-img + h3 {
+html.fullsize img + h3 {
   width: 100%;
-  position: absolute;
-  top: 25px;
+  position: relative;
+  top: -600px;
   text-align: center;
 }
 
@@ -70,7 +70,6 @@ html.spoken h3 {
 html.computer h3 {
   font-family: 'Press Start 2P';
   letter-spacing: 0em;
-  top: 40px;
 }
 
 html.dotted h3 {
