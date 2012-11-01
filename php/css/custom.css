@@ -5,7 +5,6 @@ html.intro h2 {
 /* Default image styling - set minimum height */
 .reveal section img {
   border: none;
-  min-height: 600px;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
@@ -15,6 +14,10 @@ img + h3 {
   position: absolute;
   top: 25px;
   text-align: center;
+}
+
+html.fullsize img {
+  min-height: 600px;
 }
 
 /* An image without the box shadow */
