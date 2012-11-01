@@ -2,131 +2,80 @@ html.intro h2 {
   margin: 0 0 40px 0;
 }
 
+/* Default image styling - set minimum height */
+.reveal section img {
+  border: none;
+  min-height: 600px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Defaults img followed by h3 to overlay the h3 */
+img + h3 {
+  width: 100%;
+  position: absolute;
+  top: 25px;
+  text-align: center;
+}
+
+/* An image without the box shadow */
+html.noshadow img {
+  box-shadow: none;
+}
+
+html.invert h3 {
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
 html.middle h3 {
-  color: black;
+  margin-top: 30%;
+}
+
+html.middle.large h3 {
   margin-top: 25%;
+}
+
+html.middle.huge h3 {
+  margin-top: 20%;
+}
+
+html.middle img + h3 {
+  margin-top: 40%;
+}
+
+html.bottom h3 {
+  margin-top: 60%;
+}
+
+html.medium h3 {
+  font-size: 2em;
 }
 
 html.large h3 {
   font-size: 3em;
 }
 
+html.huge h3 {
+  font-size: 5em;
+}
+
 html.comic h3 {
   font-family: "Bangers";
-  font-size: 3em;
   letter-spacing: 0em;
 }
 
-html.shadowman body {
-  background:url("../pics/shadowman.jpg");
-  background-position:center;
-  background-size: 1024px auto;
-  background-repeat: no-repeat;
-}
-
-html.shadowman h3 {
-  font-size:2em;
-  color: white;
-  text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
-}
-
-html.better body {
-  background:url("../pics/better.png");
-  background-position:center;
-  background-size: 1024px;
-  background-repeat: no-repeat;
-}
-
-html.customer body {
-  background:url("../pics/customer.jpg");
-  background-position:center;
-  background-size: 1024px auto;
-  background-repeat: no-repeat;
-}
-
-html.customer h3 {
-  color: white;
-  text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
-  margin-top: 45%;
-}
-
-html.flexible body {
-  background:url("../pics/legos.jpg");
-  background-position:center;
-  background-size: 1024px auto;
-  background-repeat: no-repeat;
-}
-
-html.flexible h3 {
-  color: white;
-  text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
-}
-
-html.lifecycle body {
-  background:url("../pics/rht-lifecycle-cropped.png");
-  background-position:center;
-  background-size: 1024px auto;
-  background-repeat: no-repeat;
-}
-
-html.lifecycle h3 {
-  color: black;
-}
-
-html.introducing body {
-  background:url("../pics/introducing.jpg");
-  background-position:center;
-  background-size: 1024px auto;
-  background-repeat: no-repeat;
-}
-
-html.introducing h3 {
+html.spoken h3 {
   font-family: 'Oswald';
-  color: white;
 }
 
-html.twitter body {
-  background:url("../pics/twitter.jpg");
-  background-position:center;
-  background-size: 1024px auto;
-  background-repeat: no-repeat;
-}
-
-html.twitter h3 {
-  display: none;
-}
-
-html.performance body {
-  background:url("../pics/performance.jpg");
-  background-position:center;
-  background-size: 1024px auto;
-  background-repeat: no-repeat;
-}
-
-html.performance h3 {
-  font-family: 'Bangers';
-  font-size: 2em;
-  letter-spacing: 0em;
-  color: black;
-}
-
-html.solaris body {
-  background:url("../pics/rowboat.jpg");
-  background-position:center;
-  background-size: 1024px auto;
-  background-repeat: no-repeat;
-}
-
-html.solaris h3 {
+html.computer h3 {
   font-family: 'Press Start 2P';
-  font-size: 1.5em;
   letter-spacing: 0em;
-  color: white;
+  top: 40px;
 }
 
-html.open-it h3 {
+html.dotted h3 {
   font-family: 'Raleway Dots';
   letter-spacing: 0.1em;
   word-spacing: 0.3em;
-  font-size: 5em;
 }

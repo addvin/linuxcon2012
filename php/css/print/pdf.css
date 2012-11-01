@@ -23,7 +23,6 @@ body {
 	padding: 0;
 	float: none !important;
 	overflow: visible;
-	background: #333;
 }
 
 html {
@@ -159,4 +158,137 @@ ul, ol, div, p {
 
 pre {
     font-size: 9pt !important;
+}
+
+html.intro h2 {
+  margin: 0 0 40px 0;
+}
+
+html.middle h3 {
+  color: black;
+  margin-top: 25%;
+}
+
+html.large h3 {
+  font-size: 3em;
+}
+
+html.comic h3 {
+  font-family: "Bangers";
+  font-size: 3em;
+  letter-spacing: 0em;
+}
+
+html.shadowman body {
+  background:url("../pics/shadowman.jpg");
+  background-position:center;
+  background-size: 1024px auto;
+  background-repeat: no-repeat;
+}
+
+html.shadowman h3 {
+  font-size:2em;
+  color: white;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+}
+
+html.better body {
+  background:url("../pics/better.png");
+  background-position:center;
+  background-size: 1024px;
+  background-repeat: no-repeat;
+}
+
+html.customer body {
+  background:url("../pics/customer.jpg");
+  background-position:center;
+  background-size: 1024px auto;
+  background-repeat: no-repeat;
+}
+
+html.customer h3 {
+  color: white;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+  margin-top: 45%;
+}
+
+html.flexible body {
+  background:url("../pics/legos.jpg");
+  background-position:center;
+  background-size: 1024px auto;
+  background-repeat: no-repeat;
+}
+
+html.flexible h3 {
+  color: white;
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+}
+
+html.lifecycle body {
+  background:url("../pics/rht-lifecycle-cropped.png");
+  background-position:center;
+  background-size: 1024px auto;
+  background-repeat: no-repeat;
+}
+
+html.lifecycle h3 {
+  color: black;
+}
+
+html.introducing body {
+  background:url("../pics/introducing.jpg");
+  background-position:center;
+  background-size: 1024px auto;
+  background-repeat: no-repeat;
+}
+
+html.introducing h3 {
+  font-family: 'Oswald';
+  color: white;
+}
+
+html.twitter body {
+  background:url("../pics/twitter.jpg");
+  background-position:center;
+  background-size: 1024px auto;
+  background-repeat: no-repeat;
+}
+
+html.twitter h3 {
+  display: none;
+}
+
+html.performance body {
+  background:url("../pics/performance.jpg");
+  background-position:center;
+  background-size: 1024px auto;
+  background-repeat: no-repeat;
+}
+
+html.performance h3 {
+  font-family: 'Bangers';
+  font-size: 2em;
+  letter-spacing: 0em;
+  color: black;
+}
+
+html.solaris body {
+  background:url("../pics/rowboat.jpg");
+  background-position:center;
+  background-size: 1024px auto;
+  background-repeat: no-repeat;
+}
+
+html.solaris h3 {
+  font-family: 'Press Start 2P';
+  font-size: 1.5em;
+  letter-spacing: 0em;
+  color: white;
+}
+
+html.open-it h3 {
+  font-family: 'Raleway Dots';
+  letter-spacing: 0.1em;
+  word-spacing: 0.3em;
+  font-size: 5em;
 }
