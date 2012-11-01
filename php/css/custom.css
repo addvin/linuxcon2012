@@ -1,0 +1,79 @@
+html.intro h2 {
+  margin: 0 0 40px 0;
+}
+
+/* Default image styling - set minimum height */
+.reveal section img {
+  border: none;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Defaults img followed by h3 to overlay the h3 */
+html.fullsize img ~ h3 {
+  width: 100%;
+  position: relative;
+  top: -600px;
+  text-align: center;
+}
+
+html.fullsize img {
+  min-height: 600px;
+}
+
+/* An image without the box shadow */
+html.noshadow img {
+  box-shadow: none;
+}
+
+html.invert h3 {
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+html.middle img + h3, html.middle h3:first-child {
+  margin-top: 250px;
+}
+
+html.middle.large img + h3, html.middle.large h3:first-child {
+  margin-top: 225px;
+}
+
+html.middle.huge img + h3, html.middle.huge h3:first-child {
+  margin-top: 200px;
+}
+
+html.bottom img + h3, html.bottom h3:first-child {
+  margin-top: 380px;
+}
+
+html.medium h3 {
+  font-size: 2em;
+}
+
+html.large h3 {
+  font-size: 3em;
+}
+
+html.huge h3 {
+  font-size: 5em;
+}
+
+html.comic h3 {
+  font-family: "Bangers";
+  letter-spacing: 0em;
+}
+
+html.spoken h3 {
+  font-family: 'Oswald';
+}
+
+html.computer h3 {
+  font-family: 'Press Start 2P';
+  letter-spacing: 0em;
+}
+
+html.dotted h3 {
+  font-family: 'Raleway Dots';
+  letter-spacing: 0.1em;
+  word-spacing: 0.3em;
+}
