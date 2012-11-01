@@ -1,43 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald|Bangers|Press+Start+2P|Raleway+Dots);
 /**
  * Red Hat theme for reveal.js.
  * 
  * Copyright (C) 2011-2012 Matt Hicks
  */
-@font-face {
-  font-family: 'Raleway Dots';
-  src: url("../fonts/Raleway_Dots/RalewayDots-Regular.ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Press Start 2P';
-  src: url("../fonts/Press_Start_2P/PressStart2P-Regular.ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Bangers';
-  src: url("../fonts/Bangers/Bangers.ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Oswald';
-  src: url("../fonts/Oswald/Oswald-Regular.ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'OswaldBold';
-  src: url("../fonts/Oswald/Oswald-Bold.ttf");
-  font-weight: bold;
-  font-style: normal;
-}
-
 @font-face {
   font-family: 'OverpassBold';
   src: url("../fonts/overpass-bold-wf.eot");
