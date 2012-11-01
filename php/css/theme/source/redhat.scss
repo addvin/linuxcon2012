@@ -63,3 +63,109 @@ $selectionBackgroundColor: #134674;
   color: black;
   font-family: 'Overpass';
 }
+
+.reveal h1 {
+  font-size: 5em;
+}
+
+.reveal h2 {
+  font-size: 3em;
+}
+
+.reveal h3 {
+  font-size: 2em;
+}
+
+.reveal h4 {
+  font-size: 1.5em;
+}
+
+.intro h2 {
+  margin: 0 0 40px 0;
+}
+
+/* Default image styling - set minimum height */
+.reveal section img {
+  border: none;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Defaults img followed by header to overlay the header */
+.reveal img.background ~ h1,
+.reveal img.background ~ h2,
+.reveal img.background ~ h3,
+.reveal img.background ~ h4 {
+  width: 100%;
+  position: relative;
+  top: -600px;
+  text-align: center;
+}
+
+.reveal img.background {
+  min-height: 600px;
+}
+
+/* An image without the box shadow */
+.reveal img.noshadow {
+  box-shadow: none;
+}
+
+h1.invert,
+h2.invert,
+h3.invert,
+h4.invert {
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+h1.middle {
+  margin-top: 200px;
+}
+h2.middle {
+  margin-top: 225px;
+}
+h3.middle {
+  margin-top: 250px;
+}
+h4.middle {
+  margin-top: 275px;
+}
+
+img.background + h1.bottom,
+img.background + h2.bottom,
+img.background + h3.bottom,
+img.background + h4.bottom {
+  margin-top: 380px;
+}
+
+h1.comic,
+h2.comic,
+h3.comic,
+h4.comic {
+  font-family: "Bangers";
+  letter-spacing: 0em;
+}
+
+h1.spoken,
+h2.spoken,
+h3.spoken,
+h4.spoken {
+  font-family: 'Oswald';
+}
+
+h1.computer,
+h2.computer,
+h3.computer,
+h4.computer {
+  font-family: 'Press Start 2P';
+  letter-spacing: 0em;
+}
+
+h1.dotted,
+h2.dotted,
+h3.dotted,
+h4.dotted {
+  font-family: 'Raleway Dots';
+  letter-spacing: 0.1em;
+  word-spacing: 0.3em;
+}
