@@ -30,19 +30,19 @@ html.invert h3 {
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 }
 
-html.middle h3 {
+html.middle h3:first-child {
   margin-top: 250px;
 }
 
-html.middle.large h3 {
+html.middle.large h3:first-child  {
   margin-top: 225px;
 }
 
-html.middle.huge h3 {
+html.middle.huge h3:first-child  {
   margin-top: 200px;
 }
 
-html.bottom h3 {
+html.bottom h3:first-child  {
   margin-top: 380px;
 }
 
