@@ -23,7 +23,6 @@ body {
 	padding: 0;
 	float: none !important;
 	overflow: visible;
-	background: #333;
 }
 
 html {
@@ -54,6 +53,7 @@ body, p, td, li, div {
    Diffrentiate your headings from your body text.
    Perhaps use a large sans-serif for distinction. */
 h1,h2,h3,h4,h5,h6 {
+  font-size: 1em;
 	text-shadow: 0 0 0 #000 !important;
 }
 
@@ -159,4 +159,36 @@ ul, ol, div, p {
 
 pre {
     font-size: 9pt !important;
+}
+
+h1.comic,
+h2.comic,
+h3.comic,
+h4.comic {
+  font-family: "Overpass";
+	letter-spacing: -0.05em;
+}
+
+h1.spoken,
+h2.spoken,
+h3.spoken,
+h4.spoken {
+  font-family: 'Overpass';
+	letter-spacing: -0.05em;
+}
+
+h1.computer,
+h2.computer,
+h3.computer,
+h4.computer {
+  font-family: 'Overpass';
+	letter-spacing: -0.05em;
+}
+
+h1.dotted,
+h2.dotted,
+h3.dotted,
+h4.dotted {
+  font-family: 'Overpass';
+	letter-spacing: -0.05em;
 }
